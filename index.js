@@ -40,7 +40,44 @@ let arr_of_obj = [
         married: false
     }
 ]
+var data = [
+    {
+        'name' : 'muhsin',
+        'age'  : 27,
+        'occupation' : 'front-end',
+        'martial-status' : true,
+        'activities' : [
+            {
+                'weekday' : 'working',
+                'location' : 'office'
+            },
+            {
+                'weekend' : 'sleeping',
+                'location' : 'home'
+            }
+        ]
+    },
 
+    {
+        'name' : 'whippy',
+        'age' : 32,
+        'occupation' : 'backend',
+        'maritas-status' : false,
+        'activities' : [
+            {
+                'weekday' : 'shooping',
+                'location' : 'mall'
+            },
+            {
+                'weekend' : 'swimming',
+                'location' : 'pool'
+            }
+        ]
+
+    }
+]
+console.log(data[0].activities[1].weekend)
+console.log(data[1].activities[1].location)
 // DISPLAY DATA ------------------------------------------
 // console.log(arr_of_obj[0].skills[1])
 // console.log(arr_of_obj[1].name)
